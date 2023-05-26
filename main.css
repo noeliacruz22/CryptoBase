@@ -1,0 +1,124 @@
+/*Section Nav*/
+.contenedor{
+    background-color: whitesmoke;
+}
+.contenedor:hover{
+    background-color: #ecf2f8;
+}
+.logo{
+    color:  #0075ff;
+}
+.contenedorLink {
+    display: flex;
+    justify-content: end;
+    margin-left: 0.5rem;
+}
+.contenedorItem{
+    display: flex;
+    justify-content: center;
+}
+
+/*Section Home*/
+.home{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 5rem;
+    align-items: center;
+}
+.home-cta{
+    flex: 1;
+}
+.jump{
+    color: #0075ff;
+}
+.title{
+    width: 30rem;
+    font-size: 4rem;
+}
+
+.division{
+    width: 100%;
+    height: 1px;
+    background-color:rgb(226, 225, 225);
+}
+
+/*Section Features*/
+.sec-features{
+    width: 100%;
+
+    padding: 2rem 2rem;
+}
+.intro{
+    text-align: center;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+}
+.resume{
+    font-size: 0.9rem;
+}
+.imagen{
+    justify-content: center;
+    text-align: center;
+}
+.title-features{
+    text-align: center;
+}
+.cta{
+    text-align: center;
+    color: #0075ff;
+    font-size: 0.8rem;
+}
+
+/*Section Kpis*/
+.sec-kpis{
+    background-color: #0075ff;
+    color: #ffffff;
+    width: 100%;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 3rem;
+}
+.kpi{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.number{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*Section Footer*/
+.sec-footer{
+    background-color: #f4f8fe;
+    margin-top: 5rem;
+    padding: 5rem;
+}
+.text-footer{
+    color:  #0075ff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.redes{
+    text-transform: uppercase;
+}
+.icono{
+    width: 50px;
+}
+.icono1{
+    width: 30px;
+}
+.contenedorFooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-weight: bold;
+    color: grey;
+}
+.pie{
+    font-size: 0.8rem;
+}
+
